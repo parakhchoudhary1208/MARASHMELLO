@@ -654,6 +654,14 @@ html,body
     border: 2px solid rgba(255, 255, 255, 0.905);
 }
 
+#main #rect1:hover
+{
+    cursor: pointer;
+    filter: drop-shadow(90px 90px 90px #000000);
+    -webkit-filter: drop-shadow(0px 0px 7px rgb(255, 255, 255));
+}
+
+
 #main #rect1 h4
 {
     font-family: Gilroy-Regular;
@@ -668,16 +676,37 @@ html,body
     width: 40px;
 }
 
+#main #rect1 #itune:hover
+{
+    cursor: pointer;
+    height: 60px;
+    width: 60px;
+}
+
 #main #rect1 #spot
 {
     height: 40px;
     width: 40px;
 }
 
+#main #rect1 #spot:hover
+{
+    cursor: pointer;
+    height: 60px;
+    width: 60px;
+}
+
 #main #rect1 #prime
 {
     height: 40px;
     width: 40px;
+}
+
+#main #rect1 #prime:hover
+{
+    cursor: pointer;
+    height: 60px;
+    width: 60px;
 }
 
 #main #rect2
