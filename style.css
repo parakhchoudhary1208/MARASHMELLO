@@ -1,0 +1,832 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing:border-box;
+}
+html,body 
+{
+    
+    height: 100%;
+    width: 100%;
+}
+
+#main
+{
+    display: flex;
+    height: 600vh;
+    width: 100%;
+}
+
+#main #Marsh 
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    height: 30%;
+    width: 86%;
+}
+
+#main #img1
+{
+    position: absolute;
+    bottom: 0.2%;
+    left: 25.5%;
+    height: 73%;
+    width: 48%;
+    filter: drop-shadow(90px 90px 90px);
+    -webkit-filter: drop-shadow(0px 0px 80px rgba(255, 255, 255, 0.837));
+    z-index: 1;
+}
+
+#main #Marsh h1
+{
+    font-family: Bebas Neue;
+    font-size: 300px;
+    font-stretch: inherit;
+    font-weight: 10000;
+    letter-spacing: 0px;
+    font-optical-sizing: initial;
+    color: rgba(255, 255, 255, 0.789);
+    filter: drop-shadow(90px 90px 90px #000000);
+    -webkit-filter: drop-shadow(0px 0px 4px rgb(255, 255, 255));
+}
+
+#main #nav
+{
+    position: absolute;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 110px;
+    width: 100%;
+    
+}
+
+#main #nav img
+{
+    height: 45px;
+    width: 45px;
+}
+
+#main #nav img:hover
+{
+    cursor: pointer;
+    filter: drop-shadow(90px 90px 90px #000000);
+    -webkit-filter: drop-shadow(4px 4px 4px rgb(255, 255, 255));
+}
+
+#main #nav h4
+{
+    color: rgb(255, 255, 255);
+    font-size: 17px;
+    font-family: Gilroy-Medium;
+    font-weight: 525;
+}
+
+#main #nav h4:hover
+{
+    cursor: pointer;
+    text-shadow: 7px 7px 7px rgb(255, 255, 255);
+}
+
+#main #nav1
+{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    position: absolute;
+    left: 3%;
+    top: 25%;
+    height: 50px;
+    width: 350px;
+    transform-origin: left;
+    transform: rotate(90deg);
+}
+
+#main #nav1 .ri-facebook-line
+{
+    color: white;
+    transform: rotate(270deg);
+    font-size: 30px;
+    font-weight: 600;
+}
+
+#main #nav1 .ri-facebook-line:hover
+{
+    cursor: pointer;
+    text-shadow: 4px 4px 4px rgb(255, 255, 255);
+}
+
+#main #nav1 .ri-instagram-line
+{
+    color: white;
+    transform: rotate(270deg);
+    font-size: 30px;
+}
+
+#main #nav1 .ri-instagram-line:hover
+{
+    cursor: pointer;
+    text-shadow: 4px 4px 4px rgb(255, 255, 255);
+}
+
+#main #nav1 .ri-twitter-line
+{
+    color: white;
+    transform: rotate(270deg);
+    font-size: 30px;
+}
+
+#main #nav1 .ri-twitter-line:hover
+{
+    cursor: pointer;
+    text-shadow: 4px 4px 4px rgb(255, 255, 255);
+}
+
+#main #nav2
+{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    position: absolute;
+    top: 29.5%;
+    right: -18%;
+    padding: 0px 50px;
+    height: 50px;
+    width: 300px;
+    transform-origin: left;
+    transform: rotate(90deg);
+}
+
+#main #nav2 h4
+{
+    font-size: 20px;
+    font-family: Gilroy-Medium;
+    font-weight: 525;
+    color: white;
+}
+
+
+#main #nav2 .ri-arrow-right-circle-line
+{
+    font-size: 30px;
+    color: white;
+}
+
+#main #part1
+{
+    height: 600vh;
+    width: 7%;
+    border: 1px solid rgba(255, 255, 255, 0.186);
+    border-top: none;
+    border-left: none;
+    border-bottom: none;
+    background-color: black;
+}
+
+#main #part2
+{
+    height: 600vh;
+    width: 21.5%;
+    background-color: black;
+    border: 1px solid rgba(255, 255, 255, 0.186);
+    border-top: none;
+    border-left: none;
+    border-bottom: none;
+}
+
+#main #part3
+{
+    height: 600vh;
+    width: 21.5%;
+    background-color: black;
+    border: 1px solid rgba(255, 255, 255, 0.186);
+    border-top: none;
+    border-left: none;
+    border-bottom: none;
+}
+
+#main #part4
+{
+    height: 600vh;
+    width: 21.5%;
+    background-color: black;
+    border: 1px solid rgba(255, 255, 255, 0.186);
+    border-top: none;
+    border-left: none;
+    border-bottom: none;
+}
+
+#main #part5
+{
+    height: 600vh;
+    width: 21.5%;
+    background-color: black;
+    border: 1px solid rgba(255, 255, 255, 0.186);
+    border-top: none;
+    border-left: none;
+    border-bottom: none;
+}
+
+#main #part6
+{
+    height: 600vh;
+    width: 7%;
+    background-color: black;
+}
+
+#main #button1
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    bottom: 10%;
+    left: 8.5%;
+    height: 60px;
+    width: 260px;
+    border: none;
+    background-color: transparent;
+    box-shadow: 0px 0px 7px rgb(255, 255, 255);
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 10px;
+    font-size: 20px;
+    font-family: Gilroy;
+    font-weight: 400;
+    color: rgba(255, 255, 255, 0.898);
+}
+
+#main #button1:hover
+{
+    cursor: pointer;
+    box-shadow: 0px 0px 10px rgb(255, 255, 255);
+}
+
+#main #p1
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    bottom: -48%;
+    left: 7%;
+    height: 350px;
+    width: 600px;
+}
+
+#main #p1 p
+{
+    font-family: Gilroy-Regular;
+    font-size: 21px;
+    line-height: 40px;
+    font-weight: 200;
+    color: rgba(255, 255, 255, 0.885);
+}
+
+#main #p2
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    bottom: -48%;
+    right: 7%;
+    height: 350px;
+    width: 600px;
+}
+
+#main #p2 p
+{
+    font-family: Gilroy-Regular;
+    font-size: 21px;
+    line-height: 40px;
+    font-weight: 200;
+    color: rgba(255, 255, 255, 0.885);
+}
+
+#main #tour
+{
+    position: absolute;
+    bottom: -92%;
+    right: 23%;
+    height: 250px;
+    width: 770px;
+    line-height: 85px;
+    text-align: center;
+}
+
+#main #tour #tour1
+{
+    font-family: Bebas Neue;
+    font-stretch: inherit;
+    font-size: 190px;
+    font-weight: 10000;
+    letter-spacing: 0px;
+    font-optical-sizing: initial;
+    color: rgba(255, 255, 255, 0.912);
+    filter: drop-shadow(90px 90px 90px #000000);
+    -webkit-filter: drop-shadow(0px 0px 4px rgb(255, 255, 255));
+}
+
+#main #tour #shed
+{
+    font-family: Bebas Neue;
+    font-stretch: inherit;
+    font-size: 190px;
+    font-weight: 10000;
+    letter-spacing: 0px;
+    font-optical-sizing: initial;
+    color: rgba(255, 255, 255, 0.912);
+    filter: drop-shadow(90px 90px 90px #000000);
+    -webkit-filter: drop-shadow(0px 0px 4px rgb(255, 255, 255));
+}
+
+#main #circle
+{
+    position: absolute;
+    bottom: -197%;
+    left: 24.45%;
+    border-radius: 50%;
+    height: 740px;
+    width: 740px;
+    background-color: white; 
+    filter: drop-shadow(20px 20px 20px);
+    -webkit-filter: drop-shadow(0px 0px 80px rgba(255, 255, 255, 0.795));
+}
+
+#main #circle #circle1
+{
+    position: absolute;
+    left: 50%;
+    top: 50%;   
+    transform: translate(-50%,-50%);
+    border-radius: 50%;
+    height: 650px;
+    width: 650px;
+    background-color: black; 
+}
+
+#main #circle #circle1 #circle2
+{
+    position: absolute;
+    left: 50%;
+    top: 50%;   
+    transform: translate(-50%,-50%);
+    border-radius: 50%;
+    height: 520px;
+    width: 520px;
+    background-color: white; 
+    filter: drop-shadow(20px 20px 20px);
+    -webkit-filter: drop-shadow(0px 0px 4px rgb(255, 255, 255));
+}
+
+
+#main #circle #circle1 #circle2 #circle3
+{
+    position: absolute;
+    left: 50%;
+    top: 50%;   
+    transform: translate(-50%,-50%);
+    border-radius: 50%;
+    height: 430px;
+    width: 430px;
+    background-color: black; 
+    filter: drop-shadow(20px 20px 20px);
+    -webkit-filter: drop-shadow(0px 0px 0px rgb(255, 255, 255));
+}
+
+#main #circle #circle1 #circle2 #circle3 img
+{
+    position: absolute;
+    left: -74.59%;
+    top: -12%;   
+    height: 650px;
+    width: 1090px;
+}
+
+#main #circle4
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    bottom: -153%;
+    left: 9%;
+    border-radius: 50%;
+    height: 80px;
+    width: 80px;
+    background-color: transparent; 
+    border: 3px solid rgba(255, 255, 255, 0.905);
+    border-left: 3px solid rgba(7, 7, 7, 0.905);
+    filter: drop-shadow(90px 90px 90px);
+    -webkit-filter: drop-shadow(80px 80px 80px rgb(255, 255, 255));
+}
+
+#main #circle4:hover
+{
+    cursor: pointer;
+    filter: drop-shadow(90px 90px 90px #000000);
+    -webkit-filter: drop-shadow(0px 0px 7px rgb(255, 255, 255));
+}
+
+#main #circle4 h4
+{
+    color: white;
+    font-family: Gilroy-Regular;
+    font-size: 12px;
+    font-weight: 200;
+}
+
+#main #arrow
+{
+    position: absolute;
+    bottom: -151%;
+    left: 6%;
+    filter: drop-shadow(90px 90px 90px);
+    -webkit-filter: drop-shadow(80px 80px 80px rgb(255, 255, 255));
+}
+
+#main #arrow:hover
+{
+    cursor: pointer;
+    filter: drop-shadow(90px 90px 90px #000000);
+    -webkit-filter: drop-shadow(0px 0px 7px rgb(255, 255, 255));
+}
+
+#main #circle5
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    bottom: -153%;
+    right: 9%;
+    border-radius: 50%;
+    height: 80px;
+    width: 80px;
+    background-color: transparent; 
+    border: 3px solid rgba(255, 255, 255, 0.905);
+    border-right: 3px solid rgba(7, 7, 7, 0.905);
+    filter: drop-shadow(90px 90px 90px);
+    -webkit-filter: drop-shadow(80px 80px 80px rgb(255, 255, 255));
+}
+
+#main #circle5:hover
+{
+    cursor: pointer;
+    filter: drop-shadow(90px 90px 90px #000000);
+    -webkit-filter: drop-shadow(0px 0px 7px rgb(255, 255, 255));
+}
+
+#main #circle5 h4
+{
+    color: white;
+    font-family: Gilroy-Regular;
+    font-size: 12px;
+    font-weight: 200;
+}
+
+#main #arrow1
+{
+    position: absolute;
+    bottom: -151%;
+    right: 6%;
+    transform: rotate(180deg);
+    filter: drop-shadow(90px 90px 90px);
+    -webkit-filter: drop-shadow(80px 80px 80px rgb(255, 255, 255));
+}
+
+#main #button2
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    bottom: -191%;
+    left: 7%;
+    height: 60px;
+    width: 260px;
+    border: none;
+    background-color: whitesmoke;
+    box-shadow: 0px 0px 7px rgb(255, 255, 255);
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    margin: 4px 2px;
+    border-radius: 10px;
+    font-size: 20px;
+    font-family: Gilroy;
+    font-weight: 400;
+    color: rgba(0, 0, 0, 0.898);
+}
+
+#main #button2:hover
+{
+    filter: drop-shadow(90px 90px 90px);
+    -webkit-filter: drop-shadow(0px 0px 80px rgb(255, 255, 255));
+}
+
+#main #button2 h4
+{
+    position: absolute;
+    top: 55%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
+#main #button2 h4:hover
+{
+    cursor: pointer;
+}
+
+#main #rect
+{
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    bottom: -239%;
+    left: 7%;
+    height: 260px;
+    width: 550px;
+}
+
+#main #rect h2
+{
+    line-height: 130px;
+    font-family: Gilroy-Extrabold;
+    font-size: 130px;
+    font-stretch: inherit;
+    letter-spacing: 0px;
+    font-optical-sizing: initial;
+    color: rgba(255, 255, 255, 0.789);
+    filter: drop-shadow(90px 90px 90px #000000);
+    -webkit-filter: drop-shadow(0px 0px 4px rgb(255, 255, 255));
+}
+
+#main #p3
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    bottom: -239%;
+    right: 7%;
+    height: 260px;
+    width: 640px;
+}
+
+#main #p3 p
+{
+    font-family: Gilroy-Regular;
+    font-size: 21px;
+    line-height: 40px;
+    font-weight: 200;
+    color: rgba(255, 255, 255, 0.885);
+}
+
+
+#main #box1
+{
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    bottom: -288%;
+    left: 18%;
+    height: 320px;
+    width: 320px;
+    background-image: url(joytime.png);
+    background-position: center;
+    background-size: cover;
+    border: 2px solid rgba(255, 255, 255, 0.905);
+}
+
+#main #box2
+{
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    bottom: -288%;
+    right: 18%;
+    height: 320px;
+    width: 320px;
+    background-image: url(happier.png);
+    background-position: center;
+    background-size: cover;
+    border: 2px solid rgba(255, 255, 255, 0.905);
+}
+
+#main #box3
+{
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    bottom: -290.55%;
+    left: 36.5%;
+    height: 360px;
+    width: 360px;
+    background-image: url(https://img1.cgtrader.com/items/879325/91dd9099a9/large/marshmello-mask-3d-model-obj-c4d.jpg);
+    background-position: center;
+    background-size: cover;
+    border: 2px solid rgba(255, 255, 255, 0.905);
+}
+
+#main #rect1
+{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    position: absolute;
+    bottom: -298%;
+    left: 36.5%;
+    height: 50px;
+    width: 360px;
+    background-color: white;
+    border: 2px solid rgba(255, 255, 255, 0.905);
+}
+
+#main #rect1 h4
+{
+    font-family: Gilroy-Regular;
+    font-size: 18px;
+    font-weight: 600;
+    color: black;
+}
+
+#main #rect1 #itune
+{
+    height: 40px;
+    width: 40px;
+}
+
+#main #rect1 #spot
+{
+    height: 40px;
+    width: 40px;
+}
+
+#main #rect1 #prime
+{
+    height: 40px;
+    width: 40px;
+}
+
+#main #rect2
+{
+    position: absolute;
+    bottom: -330%;
+    left: 28.5%;
+    height: 170px;
+    width: 620px;
+    text-align: center;
+    z-index: 2;
+}
+
+#main #rect2 h2
+{
+    line-height: 100px;
+    font-family: Gilroy-Extrabold;
+    font-size: 110px;
+    font-stretch: inherit;
+    letter-spacing: 0px;
+    font-optical-sizing: initial;
+    color: rgba(255, 255, 255, 0.842);
+    filter: drop-shadow(90px 90px 90px #000000);
+    -webkit-filter: drop-shadow(0px 0px 4px rgba(255, 255, 255, 0.652)); 
+}
+
+#main #rect3
+{
+    position: absolute;
+    bottom: -390%;
+    left: 7%;
+    height: 500px;
+    width: 1240px;
+    background-image: url(https://i.pinimg.com/736x/bd/a1/5c/bda15ccea87e9b966390d598b9f10699--top-dj-imagine-dragons.jpg);
+    background-position: cover;
+    background-size: cover;
+    filter: blur(2px);
+    -webkit-filter: blur(2px);
+    border: 2px solid rgb(255, 255, 255);
+}
+
+#main #circle6
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    bottom: -370%;
+    right: 44%;
+    border-radius: 50%;
+    height: 170px;
+    width: 170px;
+    background-color: rgba(0, 0, 0, 0.522); 
+    border: 4px solid rgba(255, 255, 255, 0.892);
+    filter: drop-shadow(90px 90px 90px);
+    -webkit-filter: drop-shadow(80px 80px 80px rgb(255, 255, 255));
+    filter: blur(0px);
+    -webkit-filter: blur(0px);
+}
+
+#main #circle6:hover
+{
+    cursor: pointer;
+    filter: drop-shadow(90px 90px 90px);
+    -webkit-filter: drop-shadow(180px 180px 180px rgb(247, 247, 247));
+}
+
+#main #circle6 svg
+{
+    position: absolute;
+    left: 31.5%;
+    top: 31.5%;
+}
+
+#main #rect4
+{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    position: absolute;
+    bottom: -420%;
+    left: 7%;
+    height: 50px;
+    width: 260px;
+}
+
+#main #rect4 h4
+{
+    font-family: Gilroy-Regular;
+    font-size: 18px;
+    font-weight: 400;
+    color: rgba(255, 255, 255, 0.679); 
+}
+
+#main #rect5
+{
+    position: absolute;
+    bottom: -440%;
+    left: 7%;
+    height: 150px;
+    width: 460px;
+}
+
+#main #rect5 h2
+{
+    line-height: 100px;
+    font-family: Bebas Neue;
+    font-size: 110px;
+    font-stretch: inherit;
+    letter-spacing: 0px;
+    font-optical-sizing: initial;
+    color: rgba(255, 255, 255, 0.842);
+    filter: drop-shadow(90px 90px 90px #000000);
+    -webkit-filter: drop-shadow(0px 0px 4px rgba(255, 255, 255, 0.652)); 
+}
+
+#main #p4
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    bottom: -480%;
+    left: 7%;
+    height: 260px;
+    width: 540px;
+}
+
+#main #p4 p
+{
+    font-family: Gilroy-Regular;
+    font-size: 21px;
+    line-height: 40px;
+    font-weight: 200;
+    color: rgba(255, 255, 255, 0.885);
+}
+
+#main #box4
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    bottom: -480%;
+    right: 7%;
+    height: 540px;
+    width: 540px;
+    background-image: url(http://hdqwalls.com/download/marshmello-sd-1080x1920.jpg);
+    background-size: cover;
+    background-position: top;
+    border: 4px solid rgba(255, 255, 255, 0.892);
+}
